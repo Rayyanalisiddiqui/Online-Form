@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <center>
+    <h1><B>Online Form</B></h1>
+    <form action="/submit">
+        <label for="Fname" class="nameinfo">
+            Enter your First Name
+        </label>
+        <input id="Fname">
+        <br><BR>
+            <label for="Lname" class="nameinfo">
+                Enter your Last Name
+            </label>
+            <input id="Lname"><br><br>
+            <label for="Dob" class="personalinfo">
+                Date Of Birth
+            </label> 
+            <input type="date" id="Dob"><br><BR>
+                <label for="mnumber" class="personalinfo">
+                    Enter Mobile Number
+                </label>
+                <input type="number" id=",number"><br><br>
+                <label for="qualification" class="personalinfo">
+                    Enter Qualification
+                </label>
+                <input type="qualification" id="qualification"><br><br>
+                <label for="Password" class="personalinfo">
+                    Enter Password
+                </label>
+                <input type="password" id="password"><br><br>
+                <p id="first">
+                    <b>Select Your Gender</b>
+                </p>
+                <input type="radio" id="gender" name="gender" value="male">
+                <label for="gender" class="genderinfo">Male</label><br><br>
+<input type="radio" id="gender" name="gender" value="Female">
+<label for="gender" class="genderinfo">Female</label> <br><br>
+<p id="second">
+    <b>Select Your Interest</b>
+</p>
+<input type="radio" id="interest" name="interest" value="Computer Science">
+<label for="interest" class="interestinfo">Computer Science</label><br><br>
+<input type="radio" id="interest" name="interest" value="Biology">
+<label for="interest" class="interestinfo">Biology</label>
+</center>
+</body>
+</html>
+*{
+    background-color: grey;
+}
+h1{
+    color: steelblue;
+}
+::grammar-error{
+    color: red;
+}
+#first{
+    color: blueviolet;
+}
+#second{
+    color: teal;
+}
+.nameinfo{
+    color: darkgreen;
+}
+.personalinfo{
+    color: brown;
+}
+.genderinfo{
+    color: rgb(211, 146, 100);
+}
+.interestinfo{
+    color: deepskyblue;
+}
